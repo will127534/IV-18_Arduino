@@ -1,0 +1,14 @@
+This program is to control MAX6921 for IV-18 VFD display 
+To control the MAX6921 needs three pin,CLK,LOAD DATA,just like the shift regester
+But the difference is MAX6921 is just using 19bit with LSB first.
+
+Another thing is how you connect MAX6921 to the IV-18 tube.
+the connection begin from the third one,with a,b,c,e,d,f,g,h,i
+then comes with 1~9 digit.
+the digit is already inverted(since LSB first)
+
+The program also pack the DS1307 control (http://bildr.org/2011/03/ds1307-arduino/) to provide RTC servce.  
+
+
+Here is the BLOG:(chinese)
+http://will-123456.blogspot.tw/2014/01/iv-18-arduino-shield.html
