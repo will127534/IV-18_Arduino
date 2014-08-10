@@ -7,8 +7,9 @@ the connection begin from the third one,with a,b,c,e,d,f,g,h,i
 then comes with 1~9 digit.
 the digit is already inverted(since LSB first)
 
-The program also pack the DS1307 control (http://bildr.org/2011/03/ds1307-arduino/) to provide RTC servce.  
+The program also pack the DS1307 control (http://bildr.org/2011/03/ds1307-arduino/) to provide RTC .  
 
+To enter the current time,just using the COM port and enter S, and you can enter the current time.
 
 Here is the BLOG:(chinese)
 http://will-123456.blogspot.tw/2014/01/iv-18-arduino-shield.html
